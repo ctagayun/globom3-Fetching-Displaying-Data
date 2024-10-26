@@ -78,3 +78,12 @@ download and install .net 8.osdk
 
 4. Running and Debugging: 
     - https://app.pluralsight.com/ilx/video-courses/fbbac3b2-0e56-464b-92f2-0b877f92f12c/7c99c5ed-967e-43f7-aa55-7cbca139b289/ac2cbc02-448b-4bdb-9f6c-658f30cbf042
+
+Module 3: Getting and Displaying Data 
+  1. API: Creating Database
+      https://app.pluralsight.com/ilx/video-courses/fbbac3b2-0e56-464b-92f2-0b877f92f12c/6feac58d-c6dc-40ae-afd9-6358f0bf8bc1/b27964d1-1cdb-40c2-a518-1421030ca4c8
+    
+      -  dotnet add package Microsoft.EntityFrameworkCore.Sqlite (Sqlite works on many platform)
+      - create folder in api/data --> 
+          create file HouseEntity.cs and paste code.
+          create HouseDbContext : DbContext
